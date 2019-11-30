@@ -1,7 +1,10 @@
-package golanghome
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+	const Brave = "brave"
+	const New = "new"
+
+	fmt.Println("Hello", Brave, New, "world")
 }
