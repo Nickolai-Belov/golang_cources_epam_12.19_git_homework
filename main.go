@@ -11,4 +11,6 @@ func main() {
 	fmt.Print("Enter text: ")
 	str,_ := reader.ReadString('\n')
 	fmt.Printf("Hello %s", str)
+
+	fmt.Println("How is the weather today?")
 }
