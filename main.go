@@ -19,4 +19,5 @@ func main() {
 	}
 	fmt.Println("Hello", BraveAdj, NewAdj, input)
 	fmt.Println("How is the weather today?")
+
 }
