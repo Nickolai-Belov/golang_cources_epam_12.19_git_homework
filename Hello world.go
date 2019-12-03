@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main()  {
-	fmt.Printf("Hello brave new world!")
+	var name string
+	fmt.Printf("Please enter your name: ")
+	_, _ = fmt.Fscan(os.Stdin, &name)
+	fmt.Println("Hello brave new ", name)
 }
