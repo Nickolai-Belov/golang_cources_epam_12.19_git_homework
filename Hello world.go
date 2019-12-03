@@ -3,6 +3,5 @@ package main
 import "fmt"
 
 func main()  {
-	fmt.Printf("Hello world!")
-	//forgot about name of commit
+	fmt.Printf("Hello brave new world!")
 }
