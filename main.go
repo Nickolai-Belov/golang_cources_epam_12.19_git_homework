@@ -6,6 +6,6 @@ func main() {
 	var name string
 	fmt.Println("Enter your name")
 	fmt.Scan(&name)
-	fmt.Println("Hello", name)
+	fmt.Println("Hello brave new", name)
 	fmt.Println("How is the weather today?")
 }
