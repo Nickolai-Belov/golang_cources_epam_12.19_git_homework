@@ -5,5 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello brave new world")
+	var name string
+	fmt.Print("please enter your name: ")
+	fmt.Scanf("%s", &name)
+	fmt.Println("Hello brave new ", name)
 }
