@@ -9,4 +9,5 @@ func main() {
 	fmt.Print("please enter your name: ")
 	fmt.Scanf("%s", &name)
 	fmt.Println("Hello brave new ", name)
+	fmt.Println("How is the weather today?")
 }
